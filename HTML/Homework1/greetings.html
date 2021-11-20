@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="/css/traffic_light.css">
+    </head>
+    <body>
+        <p id="name"></p>
+        <div class="arrays">
+            <p>Массив 1 [2, 4, hello, 39, true]</p>
+            <p> Массив 2 [java, 52, 3, false, 294, 17]</p>
+            <button type="button" onclick="check()">Проверить</button>
+            <p id="result"></p>
+        </div>
+        <div class="traffic_light">
+            <div class="light">
+                <button class="red" onclick="warning('red')">red</button>
+            </div>
+            <div class="light">
+                <button class="yellow" onclick="warning('yellow')">yellow</button>
+            </div>
+            <div class="light">
+                <button class="green" onclick="warning()">green</button>
+            </div>
+            <p id="warning"></p>
+        </div>
+    </body>
+    <script src="/JS/Homework1/greetings.js"></script>
+</html>
